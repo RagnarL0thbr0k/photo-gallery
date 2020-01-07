@@ -14,17 +14,3 @@ export class Tab2Page {
   }
 
 }
-
-/*
-@Component({
-  selector: 'app-tab2',
-  templateUrl: './tab2.page.html',
-  styleUrls: ['./tab2.page.scss']
-})
-export class AppComponent {
-  title = "Photo Gallery";
-  getTitle(): string{
-    return this.title;
-  }
-}
-*/
