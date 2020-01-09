@@ -15,7 +15,10 @@ import { IonicStorageModule } from '@ionic/storage';
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule,
-     IonicModule.forRoot(),
+    //attribuisco design Android (Mterial Design)
+     IonicModule.forRoot({
+       mode: "md"
+     }),
       AppRoutingModule,
       IonicStorageModule.forRoot()
     ],

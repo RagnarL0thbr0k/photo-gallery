@@ -12,6 +12,7 @@ export class Tab2Page {
 
   //interpolazione
   title = "Photo Gallery";
+  //color = "red";
   getTitle(): string{
     return this.title;
   }
